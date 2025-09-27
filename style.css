@@ -1,7 +1,47 @@
+
 /*
-Theme Name: Digital School
+Theme Name: Digital School WP
 Author: Greta Gercari
-Description : The Digiotal School theme, is modern, responsive and user-friendly
-Version:1.0
-Tags: Cool, Vibrant, blue, school, digital, coding
+Description:  The Digital School Blog Theme is a modern, responsive, and user-friendly WordPress theme designed specifically for showcasing educational content, updates, and student achievements from Digital School. Built with clean and minimal design principles, this theme ensures an engaging reading experience while keeping the focus on content.
+Version: 1.0
+Tags: cool, blue, mobile ready, school, digital
 */
+
+body{
+    background:#86bbf7 ;
+}
+
+.site-header{
+    background: #86bbf7;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-header .site-tittle{
+    color: #86bbf7;
+    font-size: 15px;
+}
+
+.site-footer{
+    background-color: #86bbf7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.site-footer p{
+    color: #06206a;
+    font-size: 15px;
+}
+
+.site-footer .back-to-top{
+    text-decoration: none;
+    color: #06206a;
+    font-size: 13px;
+
+}
+.site-footer .back-to-top:hover{
+    color: #1e3c8c;
+    text-decoration: underline;
+}
