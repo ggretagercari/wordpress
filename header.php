@@ -18,3 +18,12 @@
 
 
   </header>
+<nav class='site-nav'>
+  <nav>
+<?php
+wp_nav_menu(array(
+  'theme-location'=>'primary',
+  'menu_class'=>'main_menu'
+));
+?>
+  </nav>
