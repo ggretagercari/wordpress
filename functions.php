@@ -7,10 +7,10 @@ function ds_style(){
 add_action('wp_enqueue_scripts', 'ds_style');
 
 function ds_menu(){
-register_nav_menu( array(
+register_nav_menus( array(
     'primary' => 'Primary Menu'
 ));
 }
 
-add_action('after_theme_setup', 'ds_menu');
+add_action('after_setup_theme', 'ds_menu');
 ?>
